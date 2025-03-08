@@ -1,0 +1,22 @@
+[global]
+threads = 20
+
+[extract]
+output = "/mnt/storage/Daniele/quicat_benchmark/dna/synthetic/pycashier/outs"
+pipeline = "/mnt/storage/Daniele/quicat_benchmark/dna/synthetic/pycashier/pipeline"
+quality = 20
+unqualified_percent = 20
+error = 0.2
+length = 60
+upstream_adapter = "AGGGCATCTC"
+downstream_adapter = "TCAGGACTAT"
+ratio = 1
+distance = 5
+filter_percent = 0
+offset = 5
+input = "/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/unzipped"
+
+[receipt]
+input = "/mnt/storage/Daniele/quicat_benchmark/dna/synthetic/pycashier/outs"
+output = "/mnt/storage/Daniele/quicat_benchmark/dna/synthetic/pycashier/combined.tsv"
+pipeline = "/mnt/storage/Daniele/quicat_benchmark/dna/synthetic/pycashier/pipeline"

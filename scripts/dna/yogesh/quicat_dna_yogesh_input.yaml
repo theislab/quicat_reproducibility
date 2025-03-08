@@ -1,0 +1,19 @@
+config:
+  sequencing_technology: "DNA"
+  input: "fastq"
+  paired_end: false
+  cells_barcodes_whitelist: false
+  phred33: true
+  read_qc_threshold: 20
+  read_qc_percentage: 80
+  filter_barcodes_relative_abundance: 0.001
+  filter_barcodes_raw_numbers: null
+  reference: "GCTACTTGAT*ATCCTACTTG"
+  flanked_pattern: true
+  min_read_length: 40
+  distance_threshold: 8
+  barcode_ratio: 5
+  n_threads: 20
+
+input_csv: "/home/daniele/Code/github_synced/barcoding/quicat_paper_code/scripts/dna/yogesh/quicat_dna_yogesh_input.csv"
+output_path: "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/quicat"

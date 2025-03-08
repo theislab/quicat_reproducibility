@@ -1,0 +1,14 @@
+indir: "/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/gzipped/"
+mode: "single-bulk"
+outdir: "/mnt/storage/Daniele/quicat_benchmark/dna/synthetic/bartab/"
+max_cpus: 20
+max_time: "24.h"
+up_coverage: 10
+down_coverage: 10
+min_readlength: 60
+constants: "both"
+constantmismatches: 0.2
+cluster_distance: 5
+cluster_ratio: 1
+upconstant: "AGGGCATCTC"
+downconstant: "TCAGGACTAT"

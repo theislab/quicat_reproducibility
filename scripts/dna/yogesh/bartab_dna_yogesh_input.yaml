@@ -1,0 +1,14 @@
+indir: "/mnt/storage/Daniele/clonal_toolkit_data/dna/yogesh/gzipped/"
+mode: "single-bulk"
+outdir: "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/bartab/"
+max_cpus: 20
+max_time: "24.h"
+up_coverage: 10
+down_coverage: 10
+min_readlength: 40
+constants: "both"
+constantmismatches: 0.0
+cluster_distance: 8
+cluster_ratio: 5
+upconstant: "GCTACTTGAT"
+downconstant: "ATCCTACTTG"

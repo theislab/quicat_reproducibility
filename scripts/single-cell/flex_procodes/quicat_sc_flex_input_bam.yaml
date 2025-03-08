@@ -1,0 +1,20 @@
+config:
+  sequencing_technology: "10x"
+  input: "bam"
+  paired_end: null
+  cells_barcodes_whitelist: true
+  phred33: true
+  read_qc_threshold: 20
+  read_qc_percentage: 80
+  filter_barcodes_relative_abundance: null
+  filter_barcodes_raw_numbers: null
+  reference: "/home/daniele/Code/github_synced/barcoding/quicat_paper_code/scripts/single-cell/flex_procodes/reference.fasta"
+  flanked_pattern: null
+  read_length: null
+  distance_threshold: null
+  barcode_ratio: null
+  n_threads: 20
+
+input_csv: "/home/daniele/Code/github_synced/barcoding/quicat_paper_code/scripts/single-cell/flex_procodes/quicat_sc_flex_input_bam.csv"
+output_path: "/mnt/storage/Daniele/quicat_benchmark/single-cell/flex_procodes/bam/quicat"
+

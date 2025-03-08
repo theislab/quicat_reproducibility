@@ -1,0 +1,22 @@
+[global]
+threads = 20
+
+[extract]
+output = "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/pycashier/outs"
+pipeline = "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/pycashier/pipeline"
+quality = 20
+unqualified_percent = 20
+error = 0.0
+length = 100
+upstream_adapter = "GCTACTTGAT;o=10;required"
+downstream_adapter = "ATCCTACTTG;o=10;required"
+ratio = 5
+distance = 8
+filter_percent = 0.0
+offset = 8
+input = "/mnt/storage/Daniele/clonal_toolkit_data/dna/yogesh/unzipped/"
+
+[receipt]
+input = "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/pycashier/outs"
+output = "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/pycashier/combined.tsv"
+pipeline = "/mnt/storage/Daniele/quicat_benchmark/dna/yogesh/pycashier/pipeline"

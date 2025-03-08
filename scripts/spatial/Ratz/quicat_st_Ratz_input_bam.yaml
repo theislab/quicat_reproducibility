@@ -1,0 +1,21 @@
+config:
+  sequencing_technology: "10x"
+  input: "bam"
+  paired_end: null
+  cells_barcodes_whitelist: true
+  phred33: true
+  read_qc_threshold: 20
+  read_qc_percentage: 60
+  filter_barcodes_relative_abundance: null
+  filter_barcodes_raw_numbers: 2
+  reference: "TGTGCGGTCCTT*"
+  flanked_pattern: true
+  max_read_length: 30
+  min_read_length: 20
+  distance_threshold: 5
+  barcode_ratio: 2
+  n_threads: 20
+  contig: "chrH2B-EGFP-N"
+
+input_csv: "/home/daniele/Code/github_synced/barcoding/quicat_paper_code/scripts/spatial/Ratz/quicat_st_Ratz_input_bam.csv"
+output_path: "/mnt/storage/Daniele/quicat_benchmark/st/Ratz/quicat/"

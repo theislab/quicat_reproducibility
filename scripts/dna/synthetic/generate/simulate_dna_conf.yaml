@@ -1,0 +1,27 @@
+general:
+  output_path: "/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/"
+  samples: ['synth_1', 'synth_2', 'synth_3', 'synth_4']
+  simulation_type: "dna"
+  n_threads: 4
+
+common:
+  art: True
+  flank_left: "AGGGCATCTC"
+  flank_right: "TCAGGACTAT"
+  barcode_length: 60
+  min_hamming_dist: 6
+  sequence_length: 120
+  num_pcr_chimeras: 50
+  max_pcr_hamming_dist: 3
+  pcr_error_rate: 0.1
+  pcr_error_fraction: 0.1
+
+distribution_params:
+  distribution_type: "normal" 
+  mean: 500
+  std_dev: 50
+  min_frequency: 0.0001
+dna:
+  num_barcodes: 5000
+
+

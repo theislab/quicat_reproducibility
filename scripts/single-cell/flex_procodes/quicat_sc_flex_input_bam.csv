@@ -1,0 +1,2 @@
+sample,fastq_path_r1,fastq_path_r2,barcodes_path,bam_path,condition,replicate
+A40_01,,,/mnt/storage/Daniele/clonal_toolkit_data/single-cell/flex_procodes/A40_01/sample_filtered_feature_bc_matrix/barcodes.tsv.gz,/mnt/storage/Daniele/clonal_toolkit_data/single-cell/flex_procodes/A40_01/sample_alignments.bam,,

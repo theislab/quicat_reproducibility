@@ -1,0 +1,5 @@
+sample,fastq_path_r1,fastq_path_r2,barcodes_path,bam_path,condition,replicate
+synth_1,/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/gzipped/synth_1_R1.fq.gz,,,,,
+synth_2,/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/gzipped/synth_2_R1.fq.gz,,,,,
+synth_3,/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/gzipped/synth_3_R1.fq.gz,,,,,
+synth_4,/mnt/storage/Daniele/clonal_toolkit_data/dna/synthetic/gzipped/synth_4_R1.fq.gz,,,,,

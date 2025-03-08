@@ -1,0 +1,15 @@
+indir: "/mnt/storage/Daniele/clonal_toolkit_data/single-cell/flex_procodes/A40_01/"
+mode: "single-cell"
+input_type: "bam"
+outdir: "/mnt/storage/Daniele/quicat_benchmark/single-cell/flex_procodes/bam/bartab/"
+ref: "/home/daniele/Code/github_synced/barcoding/quicat_paper_code/scripts/single-cell/flex_procodes/reference_bartab.fasta"
+max_cpus: 20
+max_time: "24.h"
+whitelist_indir: "/mnt/storage/Daniele/clonal_toolkit_data/single-cell/flex_procodes/A40_01/sample_filtered_feature_bc_matrix/"
+workdir: "/mnt/storage/Daniele/quicat_benchmark/single-cell/flex_procodes/bam/bartab/"
+up_coverage: 0
+down_coverage: 0
+min_barcode_length: 0
+cluster_distance: 0
+cluster_ratio: 0
+alnmismatches: 0
